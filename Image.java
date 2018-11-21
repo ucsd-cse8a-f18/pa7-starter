@@ -32,8 +32,8 @@ class Image {
     return pixels2D;
   }
 
-  Color getColorAtPos(int x, int y) {
-    return this.pixels[this.height*y+x];
+  Color getColorAtPos(int col, int row) {
+    return this.pixels[this.width*y + x];
   }
 
   int size() {

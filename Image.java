@@ -33,7 +33,7 @@ class Image {
   }
 
   Color getColorAtPos(int col, int row) {
-    return this.pixels[this.width*y + x];
+    return this.pixels[this.width*row + col];
   }
 
   int size() {
